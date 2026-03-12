@@ -1,0 +1,5 @@
+.ipynb_checkpoints/
+data/diabetic_data.csv
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,15 @@
+Day 1 :
+- Loaded dataset from Kaggle
+- Ran basic code and checked for missing values
+
+
+Day 2 : 
+- Found missing values
+- Race: only 2K missing values, keeping it
+- Weight: 98K missing values, DROPPING 
+- Payer_code: 40K missing values
+- medical_speciality: 49K missing values
+- diag_1: 21 missing values, keeping it
+- diag_2: 358 missing values, keeping it
+- diag_3: 1423 missing values, keeping it
+- Decided to make 2 models, one with keeping all the values except for weight, and the other model with dropping the values weight, payer_code, and medical_specialty
